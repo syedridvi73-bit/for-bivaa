@@ -315,7 +315,7 @@
     for (const [text, cls] of nextDeniedMessage()) {
       await addLine(text, cls, { pause: 280 });
     }
-    await addLine("This system was built for BIVA. ❤️", "pink");
+    await addLine("This system was built for B__A. ❤️", "pink");
 
     el.retryRow.hidden = false;
     scrollDown();
