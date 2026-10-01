@@ -370,7 +370,7 @@
   // Each item is one line. "" = gap between stanzas.
   // type "title" and "hl" (highlight) get special styling.
   const POEM = [
-    { text: "For Biva", type: "title" },
+    { text: "বনলতা সেন ", type: "title" },
     { text: "" },
     { text: "Some people arrive like sunlight," },
     { text: "quietly turning ordinary moments gold." },
