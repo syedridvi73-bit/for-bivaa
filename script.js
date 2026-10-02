@@ -244,7 +244,7 @@
     [
       ["⚠ IDENTITY UNKNOWN", "err big"],
       ["Who are you?", ""],
-      ["The system is waiting for BIVA.", "pink"],
+      ["The system is waiting for someone else.", "pink"],
     ],
     [
       ["403 — HEART ACCESS DENIED", "err big"],
@@ -254,7 +254,7 @@
     [
       ["> Searching...", "dim"],
       ["> Searching...", "dim"],
-      ["> Still not BIVA.", ""],
+      ["> Still not her.", ""],
       ["ACCESS DENIED. 😭", "err big"],
     ],
     [
@@ -464,9 +464,9 @@
   /* ---------- 8. Command line (easter eggs) ---------- */
 
   const SECRET_MESSAGES = [
-    ["> Decrypting secret...", "Some days I just wait for a message", "that starts with your name. ❤️"],
-    ["> Decrypting secret...", "You are the only notification", "I never want to mute. ✨"],
-    ["> Decrypting secret...", "If I could debug my heart,", "every error would still lead back to you. 💗"],
+    ["> Decrypting secret...", "Nowadays, I find myself waiting for a message", "that starts with your name.😤 "],
+    ["> Decrypting secret...", "You are the only notification", "I haven't been forgetting lately. 😉"],
+    ["> Decrypting secret...", "SYSTEM NOTE: One particular person has been occupying an unreasonable amount of memory. ⚠️"],
   ];
 
   // Each command returns a list of [text, cssClass]
@@ -485,7 +485,7 @@
       ["Created for one particular person.", ""],
       ["", ""],
       ["Name:", "dim"],
-      ["BIVA ❤️", "pink big"],
+      ["Faria Akter Biva ❤️", "pink big"],
     ],
     heart: () => [
       ["> Running heart.exe...", "dim"],
@@ -504,7 +504,7 @@
     if (raw === "") return;
 
     const command = raw.toLowerCase();
-    await addLine("biva@heart:~$ " + raw, "dim"); // safe: textContent
+    await addLine("Chatbox:~$ " + raw, "dim"); // safe: textContent
 
     if (command === "exit") {
       await exitSystem();
